@@ -1,0 +1,10 @@
+<h2>Perfil</h2>
+<hr />
+
+<section>
+  <ul>
+    <p *ngFor="let profile of profiles">
+      <app-profile-list-item [profile]="profile"></app-profile-list-item>
+    </p>
+  </ul>
+</section>

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-nestjs"
+    }
+  },
+  "defaultProject": "angular-nestjs",
+  "cli": {
+    "analytics": "67a75f82-6cb7-4565-959d-f649219ffb2e"
+  }
 }
