@@ -13,6 +13,6 @@ export class ProfileService {
   constructor(private http: HttpClient) { }
 
   getAll(){
-    return this.http.get<Profile[]>('http://localhost:3000/profiles');
+    return this.http.get<Profile[]>('https://jeffangularnest.herokuapp.com/profiles');
   }
 }
